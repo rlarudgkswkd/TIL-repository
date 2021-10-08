@@ -1,25 +1,22 @@
 JAVA 클래스명과 파일명은 왜 같아야하는지?
-======
-
+===
 필자가 백준 1110번 문제를 정말 비효율적인 방식으로 풀어서 다시 나머지 연산을 이용해 풀게 되었다.
 
 그러다 문득 
-
+<br>
 
 <img src = "/img/ThinkingMan.png" width="20%">
 
 어? 왜 자바명과 클래스 명은 왜 같아야 할까?
 
-
 이런 질문이 떠오르게 되었다. 신입일지라도 JAVA개발자로서 일하는 사람이 이런것도 모르다니.. 하지만 낙담하지 않고 어느 누군가 말했던 항상 쓰던 것도 왜 쓰는지 다시 검색해보고 알아봐야한다고 들었기에 간단하게 조사를 하게 되었다.
 
+<br><br><br>
+<img src = "/img/NamingQuestion.png" width="60%" >
 
+<역시나 갓 인도 분들.. 고수가 많아>
 
-
-
-< 역시나 갓 인도 분들.. 고수가 많아 >
-
-
+<br><br><br>
 
 
 
@@ -38,13 +35,13 @@ Java에서 Java 파일 이름은 항상 공용 클래스 이름과 동일해야 
   수의 .class 파일을 생성한다고 가정합니다. 이 조건에서 우리는 자바 인터프리터가 해석해야 하는 클래스와 프로그램의 
   진입점을 포함하는 클래스를 쉽게 식별할 수 없습니다.
 ```
-
+<br><br>
 결국 위의 내용을 정리하자면 
 
-public 아닌 경우에 파일명과 관련없이 class이름 선언 가능
-Public class와 파일명이 동일해야하는 이유는 JVM에서 진입점이 되기 때문에
-만약 그렇게 하지 않을 경우 JAVA소스 파일을 컴파일 한 후 자바 인터프리터가 해석해야하는 클래스와 진입점 포함하는 클래스를 쉽게 식별할수가 없음.
-
+- public 아닌 경우에 파일명과 관련없이 class이름 선언 가능
+- Public class와 파일명이 동일해야하는 이유는 JVM에서 진입점이 되기 때문에
+- 만약 그렇게 하지 않을 경우 JAVA소스 파일을 컴파일 한 후 자바 인터프리터가 해석해야하는 클래스와 진입점 포함하는 클래스를 쉽게 식별할수가 없음.
+<br><br>
 
 위의 이유로 인해 JAVA 클래스명과 파일명이 동일해야한다. 
 
@@ -52,30 +49,18 @@ JAVA개념에 대해서는 처음 요약하다보니 좀 길었지만 다음부�
 
 
 
-
+<br>
 
 P.S 번역도 은근 재밌네(구글 번역 + 나의 의역 감사해요)
 
 
 
+<br>
 
-
-
-
+### 참조링크
+***
 https://cbw1030.tistory.com/39
-
-[JAVA] public class & class 차이
-
-Program.java 라는 이름을 가진 클래스 파일로 예시를 들어보자. Program.java class Program { } 문제없이 컴파일이 잘 된다. 위 소스 파일에 아래와 같은 클래스를 하나 더 추가해보자. class Program { { clas..
-
-cbw1030.tistory.com
 
 
 https://www.tutorialspoint.com/why-the-java-file-name-should-be-always-the-same-as-a-public-class-name
 
-
-Why the java file name should be always the same as a public class name?
-
-Why the java file name should be always the same as a public class name?          In Java, the java file name should be always the same as a public class name. While writing a java program first it is saved as a ".java" file, when it is compiled it fo
-
-www.tutorialspoint.com
