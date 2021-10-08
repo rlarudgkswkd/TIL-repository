@@ -6,5 +6,7 @@ TIL(Today I learned) 저장소
 * 🍞 [빵 부스러기 저장소](https://github.com/rlarudgkswkd/TIL-repository/blob/master/dfas/BreadComb.md)
 
 ### JAVA
+* JAVA클래스 명과 파일명은 왜 같아야하는지?
 
-### Postgresql
+### DB
+* [Postgresql]데이터캐쉬와 로그버퍼
