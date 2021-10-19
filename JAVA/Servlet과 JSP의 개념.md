@@ -22,4 +22,5 @@
       <br>WAS(Web Application Server) -> jsp를 jsp.java로 만듬
 
 ### 부록
+* Spring의 구조
 ![image](https://user-images.githubusercontent.com/48428850/137869192-188ba40f-4d71-47c1-8100-3830fbaaf71c.png)
