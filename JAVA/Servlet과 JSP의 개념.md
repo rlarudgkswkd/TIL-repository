@@ -20,3 +20,6 @@
   * HTML안에 JAVA 코드
   * JSP 수정시 재배포할 필요없이 WAS가 알아서 처리
       <br>WAS(Web Application Server) -> jsp를 jsp.java로 만듬
+
+### 부록
+![image](https://user-images.githubusercontent.com/48428850/137869192-188ba40f-4d71-47c1-8100-3830fbaaf71c.png)
