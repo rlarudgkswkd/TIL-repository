@@ -14,6 +14,7 @@ TIL(Today I learned) 저장소
 
 ### DB
 * [Postgresql]데이터캐쉬와 로그버퍼
+* 🚟[SQL실행계획읽는법](https://github.com/rlarudgkswkd/TIL-repository/blob/master/DB/%EC%8B%A4%ED%96%89%EA%B3%84%ED%9A%8D%20%EC%9D%BD%EB%8A%94%EB%B0%A9%EB%B2%95.md)
 <br>
 
 ### 알고리즘 공부
