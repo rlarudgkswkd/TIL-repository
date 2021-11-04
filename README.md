@@ -24,3 +24,5 @@ TIL(Today I learned) 저장소
       알고리즘 문제를 풀다가 어려웠거나 재밌는 경험을 한 문제들 추가
 * ✏[[백준]10809번 문자열관련 문제](https://github.com/rlarudgkswkd/TIL-repository/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/%EB%B0%B1%EC%A4%80/10809%EB%AC%B8%EC%A0%9C/Readme.md)
 * ✏[[leetcode]TwoSum 문제](https://github.com/rlarudgkswkd/TIL-repository/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/leetcode/TwoSum_%EA%B2%BD%ED%95%9C%ED%92%80%EC%9D%B4.md)
+
+* ✏[JAVA_배열안의 요소 오름차순 정렬법](https://github.com/rlarudgkswkd/TIL-repository/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/%EC%9E%90%EB%B0%94_%EB%B0%B0%EC%97%B4%20%EC%9A%94%EC%86%8C%EB%93%A4%20%EC%98%A4%EB%A6%84%EC%B0%A8%EC%88%9C%20%EC%A0%95%EB%A0%AC.md)
