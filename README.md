@@ -26,3 +26,4 @@ TIL(Today I learned) 저장소
 * ✏[[leetcode]TwoSum 문제](https://github.com/rlarudgkswkd/TIL-repository/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/leetcode/TwoSum_%EA%B2%BD%ED%95%9C%ED%92%80%EC%9D%B4.md)
 
 * ✏[JAVA_배열안의 요소 오름차순 정렬법](https://github.com/rlarudgkswkd/TIL-repository/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/%EC%9E%90%EB%B0%94_%EB%B0%B0%EC%97%B4%20%EC%9A%94%EC%86%8C%EB%93%A4%20%EC%98%A4%EB%A6%84%EC%B0%A8%EC%88%9C%20%EC%A0%95%EB%A0%AC.md)
+* ✏[JAVA_배열이나 map 등의 요소 찾아주는 메서드](https://github.com/rlarudgkswkd/TIL-repository/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80/%EC%9E%90%EB%B0%94_%EC%9A%94%EC%86%8C%20%EC%B0%BE%EB%8A%94%20%EB%A9%94%EC%84%9C%EB%93%9C.md)
