@@ -17,6 +17,8 @@ TIL(Today I learned) 저장소
 * 📖 [책읽기] SQL레벨업 
    * 🚟[SQL실행계획읽는법](https://github.com/rlarudgkswkd/TIL-repository/blob/master/DB/%EC%8B%A4%ED%96%89%EA%B3%84%ED%9A%8D%20%EC%9D%BD%EB%8A%94%EB%B0%A9%EB%B2%95.md)
 
+### Python
+* ✏[PYTHON 갑자기 pip가 안될경우](https://devlog.jwgo.kr/2020/02/29/broken-pip-error/)
 
 <br>
 
