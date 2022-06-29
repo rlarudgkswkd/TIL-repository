@@ -11,9 +11,10 @@ TIL(Today I learned) 저장소
 ### JAVA
 * 💻[JAVA클래스 명과 파일명은 왜 같아야하는지?](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/ClassNamingReason.md)
 * 🎫[Servlet과 JSP 개념](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Servlet%EA%B3%BC%20JSP%EC%9D%98%20%EA%B0%9C%EB%85%90.md)
-* 🎞[List와 ArrayList의 차이](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/List%EC%99%80%20ArrayList%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
+* 😁[List와 ArrayList의 차이](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/List%EC%99%80%20ArrayList%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 * 🎐[오버라이딩과 오버로드의 차이]
-* 🎞[@Controller, @Repository, @Service 어노테이션](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%40Controller%2C%20%40Repository%2C%20%40Service%20%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98.md)
+* 🎶[@Controller, @Repository, @Service 어노테이션](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%40Controller%2C%20%40Repository%2C%20%40Service%20%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98.md)
+* 😊[자바 언어 템플릿 엔진 비교](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EC%9E%90%EB%B0%94%20%EC%96%B8%EC%96%B4%20%ED%85%9C%ED%94%8C%EB%A6%BF%20%EC%97%94%EC%A7%84%20%EB%B9%84%EA%B5%90.md)
 
 <br>
 
