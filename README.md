@@ -6,6 +6,7 @@ TIL(Today I learned) 저장소
 * 🍞 [빵 부스러기 저장소](https://github.com/rlarudgkswkd/TIL-repository/blob/master/ETC/BreadComb.md)
 * [슬럼프를 극복하는법](https://github.com/rlarudgkswkd/TIL-repository/blob/master/ETC/%EC%8A%AC%EB%9F%BC%ED%94%84%EB%A5%BC%20%EA%B7%B9%EB%B3%B5%ED%95%98%EB%8A%94%EB%B2%95.md)
 * [톰캣메뉴얼](https://github.com/rlarudgkswkd/TIL-repository/blob/master/ETC/%ED%86%B0%EC%BA%A3%EB%A9%94%EB%89%B4%EC%96%BC.md)
+* [REST가 CRUD를 HTTP METHOD에 매핑하는 방식](https://github.com/rlarudgkswkd/TIL-repository/blob/master/ETC/REST%EA%B0%80%20CRUD%20%ED%91%9C%ED%98%84%ED%95%98%EB%8A%94%20HTTP%20METHOD.md)
 <br>
 
 ### JAVA
