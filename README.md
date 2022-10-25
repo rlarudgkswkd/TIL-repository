@@ -26,7 +26,7 @@ TIL(Today I learned) 저장소
 * 🚟[SQL실행계획읽는법](https://github.com/rlarudgkswkd/TIL-repository/blob/master/DB/%EC%8B%A4%ED%96%89%EA%B3%84%ED%9A%8D%20%EC%9D%BD%EB%8A%94%EB%B0%A9%EB%B2%95.md)
 * 🎏[두개의 날짜사이에서 차이구하기](https://github.com/rlarudgkswkd/TIL-repository/blob/master/DB/%EB%82%A0%EC%A7%9C%EC%9C%A0%ED%98%95%EB%81%BC%EB%A6%AC%EC%B0%A8%EA%B0%90.md)
 * 🤞[JOIN 에 대해서 정리](https://github.com/rlarudgkswkd/TIL-repository/blob/master/DB/JOIN%20%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%A0%95%EB%A6%AC.md)
-* [Postgresql 프로시저와 ](https://github.com/rlarudgkswkd/TIL-repository/blob/master/DB/%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80.md)
+* 🎫[Postgresql 프로시저와 함수](https://github.com/rlarudgkswkd/TIL-repository/blob/master/DB/%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80.md)
 
 ### Python
 * ✏[PYTHON 갑자기 pip가 안될경우](https://devlog.jwgo.kr/2020/02/29/broken-pip-error/)
