@@ -18,7 +18,7 @@ TIL(Today I learned) 저장소
 * 🎶[@Controller, @Repository, @Service 어노테이션](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%40Controller%2C%20%40Repository%2C%20%40Service%20%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98.md)
 * 😊[자바 언어 템플릿 엔진 비교](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EC%9E%90%EB%B0%94%20%EC%96%B8%EC%96%B4%20%ED%85%9C%ED%94%8C%EB%A6%BF%20%EC%97%94%EC%A7%84%20%EB%B9%84%EA%B5%90.md)
 * 🤣[스프링에서 Bean 주입하는 방식](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EC%8A%A4%ED%94%84%EB%A7%81%EC%97%90%EC%84%9C%20Bean%20%EC%A3%BC%EC%9E%85%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D.md)
-
+* [Gson 사용하여 json을 객체화 하기]
 <br>
 
 ### DB
