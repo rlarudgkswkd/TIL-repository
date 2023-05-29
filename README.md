@@ -20,6 +20,7 @@ TIL(Today I learned) 저장소
 * 🤣[스프링에서 Bean 주입하는 방식](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EC%8A%A4%ED%94%84%EB%A7%81%EC%97%90%EC%84%9C%20Bean%20%EC%A3%BC%EC%9E%85%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D.md)
 * [Gson 사용하여 json을 객체화 하기]
 * [AWS SDK 활용]
+* [멀티스레드 @Async]()
 <br>
 
 ### DB
