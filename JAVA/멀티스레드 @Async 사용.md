@@ -44,6 +44,16 @@ public class AsyncConfig implements AsyncConfigurer { // 추가
 }
 ```
 
+### 2. 메서드에 @Async 추가
+```
+@Async("dashBoardExecutor")
+public CompletableFuture<List<AwsAssetsVo>> getAllResource(long providerId) {
+  //
+  //내부 로직
+  //
+  return CompletableFuture.completedFuture(awsAssets);
+}
+```
 
 
 ## TroubleShooting
