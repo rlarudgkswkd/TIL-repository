@@ -23,6 +23,7 @@ TIL(Today I learned) 저장소
 * [AWS SDK 활용]
 * [멀티스레드 @Async](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%93%9C%20@Async%20%EC%82%AC%EC%9A%A9.md)
 * [[외부링크]Java 기본타입 vs 참조 타입](https://week-year.tistory.com/141)
+* [Spring Scheduler 사용](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Spring_Scheduler%EC%82%AC%EC%9A%A9.md)
 <br>
 
 ### DB
