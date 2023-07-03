@@ -25,7 +25,7 @@ TIL(Today I learned) 저장소
 * [[외부링크]Java 기본타입 vs 참조 타입](https://week-year.tistory.com/141)
 * [Spring Scheduler 사용](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Spring_Scheduler%EC%82%AC%EC%9A%A9.md)
 * [Setter 일일이 안하고 한번에 BeanUtils.copyProperties() 사용](https://siyoon210.tistory.com/74)
-* 
+* [객체 리스트 정렬](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EA%B0%9D%EC%B2%B4%20List%20%EC%A0%95%EB%A0%AC.md)
 <br>
 
 ### DB
