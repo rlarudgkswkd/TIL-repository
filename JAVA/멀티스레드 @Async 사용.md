@@ -104,4 +104,4 @@ private static <T> T joinCompletableFuture(CompletableFuture<T> completableFutur
 - 구현 시 참고한 링크 : https://cano721.tistory.com/208#Return_%EA%B0%92%EC%9D%B4_%ED%95%84%EC%9A%94%ED%95%A0%EB%95%8C
 
 ## 2023.07.06 추가
-- CORE_POOL_SIZE : 처음에 이게 CPU 사이즈를 입력하는거라고 생각. 
+- CORE_POOL_SIZE : 처음에 이게 CPU 사이즈를 입력하는거라고 생각. 그게 아니라 기본 생성 thread의 Pool size를 설정해주는 옵션임.
