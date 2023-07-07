@@ -21,6 +21,7 @@ public class AsyncConfig implements AsyncConfigurer { // 추가
     private int MAX_POOL_SIZE = 10;
     private int QUEUE_CAPACITY = 100_000;
 
+
     @Bean(name = "dashBoardExecutor")
     public Executor threadPoolTaskExecutor() {
 
