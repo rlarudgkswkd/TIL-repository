@@ -26,6 +26,7 @@ TIL(Today I learned) 저장소
 * [Spring Scheduler 사용](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Spring_Scheduler%EC%82%AC%EC%9A%A9.md)
 * [Setter 일일이 안하고 한번에 BeanUtils.copyProperties() 사용](https://siyoon210.tistory.com/74)
 * [객체 리스트 정렬](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EA%B0%9D%EC%B2%B4%20List%20%EC%A0%95%EB%A0%AC.md)
+* [객체 리스트 내림차순 정렬](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EA%B0%9D%EC%B2%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%EC%A0%95%EB%A0%AC.md)
 <br>
 
 ### DB
