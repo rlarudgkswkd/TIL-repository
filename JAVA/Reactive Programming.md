@@ -108,7 +108,8 @@
     - Processor
 - 동작 방식 → 핵심은 subscribe
 
-![Untitled](Reactive%20Programming%202%E1%84%8E%E1%85%A1%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%208c1fdce8f10f4d8d908f8d9924ce2c93/Untitled.png)
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/f6d225d7-910b-4614-9ac5-0a5a37752df4)
+
 
 - 용어 정의
     - Signal
@@ -159,7 +160,8 @@
 - Mono
     - 1개의 데이터만 Emit 하는 Publisher
     
-    ![Untitled](Reactive%20Programming%202%E1%84%8E%E1%85%A1%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%208c1fdce8f10f4d8d908f8d9924ce2c93/Untitled%201.png)
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/91958d21-5a93-4c6e-8614-44212a7dc1a8)
+
     
     - 예제
         
@@ -175,7 +177,8 @@
 - Flux
     - 여러개의 데이터를 emit 할수있는 Publisher 타입
         
-        ![Untitled](Reactive%20Programming%202%E1%84%8E%E1%85%A1%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%208c1fdce8f10f4d8d908f8d9924ce2c93/Untitled%202.png)
+        ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/b5a8a181-7364-48bb-ab7f-2f99e762c887)
+
         
     - 예제
         
@@ -597,7 +600,8 @@ public class Example9_1 {
             | Flux | map | Transform the items emitted by this http://eclipse-javadoc:%E2%98%82=brick-modules-autoconfigure/C:%5C/Users%5C/bluesky%5C/.m2%5C/repository%5C/io%5C/projectreactor%5C/reactor-core%5C/3.2.13.RELEASE%5C/reactor-core-3.2.13.RELEASE.jar%3Creactor.core.publisher(Flux.class%E2%98%83Flux~map~Ljava.util.function.Function%5C%3C-TT;+TV;%3E;%E2%98%82Flux by applying a synchronous function to each item. |
             |  | flatMap | Transform the elements emitted by this http://eclipse-javadoc:%E2%98%82=brick-modules-autoconfigure/C:%5C/Users%5C/bluesky%5C/.m2%5C/repository%5C/io%5C/projectreactor%5C/reactor-core%5C/3.2.13.RELEASE%5C/reactor-core-3.2.13.RELEASE.jar%3Creactor.core.publisher(Flux.class%E2%98%83Flux~flatMap~Ljava.util.function.Function%5C%3C-TT;+Lorg.reactivestreams.Publisher%5C%3C+TR;%3E;%3E;%E2%98%82Flux asynchronously into Publishers, then flatten these inner publishers into a single http://eclipse-javadoc:%E2%98%82=brick-modules-autoconfigure/C:%5C/Users%5C/bluesky%5C/.m2%5C/repository%5C/io%5C/projectreactor%5C/reactor-core%5C/3.2.13.RELEASE%5C/reactor-core-3.2.13.RELEASE.jar%3Creactor.core.publisher(Flux.class%E2%98%83Flux~flatMap~Ljava.util.function.Function%5C%3C-TT;+Lorg.reactivestreams.Publisher%5C%3C+TR;%3E;%3E;%E2%98%82Flux through merging, which allow them to interleave |
     
-    ![Untitled](Reactive%20Programming%202%E1%84%8E%E1%85%A1%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%208c1fdce8f10f4d8d908f8d9924ce2c93/Untitled%203.png)
+    ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/ff119810-7776-4ead-9db6-47e0f51c2a26)
+
     
     - 예제
         
@@ -657,7 +661,8 @@ public class Example9_1 {
 - **zip**
     - 각 Publisher가 1개씩 데이터를 EMIT 하길 기다렸따가 결합
     
-    ![Untitled](Reactive%20Programming%202%E1%84%8E%E1%85%A1%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%208c1fdce8f10f4d8d908f8d9924ce2c93/Untitled%204.png)
+    ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/f90760c1-5e2b-490d-9aeb-0ef827bb75ef)
+
     
     - 예제
     
@@ -718,7 +723,8 @@ public class Example9_1 {
     
 - collectList()
     
-    ![Untitled](Reactive%20Programming%202%E1%84%8E%E1%85%A1%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%208c1fdce8f10f4d8d908f8d9924ce2c93/Untitled%205.png)
+    ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/362d3c35-01bb-4f28-a9b4-b829c154a953)
+
     
     ```java
     @Slf4j
