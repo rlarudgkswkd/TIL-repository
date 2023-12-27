@@ -60,6 +60,11 @@
 
 ### Virtual Thread
 ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/7b803cc6-eeca-495f-b070-e38c5e2b5c9d)
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/f59d834b-a1b4-484c-ab83-b4816a30dfce)
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/bb47cae6-80c1-4999-ab45-44572f5fa9a8)
+- Blocking 이 발생하면 Vitual Thread가 Carrier Thread에서 Unmount / Mount 되게됌.
+
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/8a1c6b43-d1b3-4a32-a825-dea87aa0c16f)
 
 
 ## Virtual Thread 구조
