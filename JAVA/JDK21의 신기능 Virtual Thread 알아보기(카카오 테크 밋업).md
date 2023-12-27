@@ -49,7 +49,7 @@
    - Blocking 발생 시 내부 스케쥴리을 통해 다른 작업을 처리
 2. 자바 플랫폼의 디자인과 조화를 이루는 코드 생성
    - 기존 스레드 구조 그대로 사용
-  
+
 ### Reactive Programming 과 비교
 ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/92614ad9-e327-46e6-a5be-cbe2b1299769)
 
@@ -90,6 +90,10 @@ spring:
 2. Thread Local 사용 시 주의
    - Platform Thread Pool 을 사용할 때 공유를 위해 ThreadLocal 을 사용하던 관습
    - Virtual Thread는 Heap을 사용하기 때문에 이를 남발하면 메모리 사용이 늘어남
+3. synchronized 사용 시 주의
+   - synchronized 사용 시 Virtual Thread에 연결된 Carrier Thread가 Blocking 될 수 있으니 주의(이런 경우를 pinning 이라고 함)
+     ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/2fb843d3-8717-478d-a4bd-2d091f719229)
+
 
 ## 성능 테스트
 ## 생각해볼 점
