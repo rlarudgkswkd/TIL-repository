@@ -69,6 +69,19 @@
 ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/8a1c6b43-d1b3-4a32-a825-dea87aa0c16f)
 
 ## 사용법
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/1e71d466-a449-45b4-bf85-c53fe605388b)
+- 보통은 ExecutorService 사용, Executors.newVirtualThreadPerTaskExecutor()
+
+### Spring Boot(MVC) 적용 법(3.2 이상)
+```yaml
+#application.yaml
+spring:
+   threads:
+      virtual:
+         enabled: true
+
+```
+
 ## 성능 테스트
 ## 생각해볼 점
 ## 마치며
