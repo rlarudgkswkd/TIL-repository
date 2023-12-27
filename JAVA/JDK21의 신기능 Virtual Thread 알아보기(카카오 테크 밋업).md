@@ -123,7 +123,7 @@ spring:
 2. CPU Intensive 작업에는 적합하지 않습니다.
 3. Spring MVC 기반 Web API 제공시 편리하게 사용할 수 있습니다.
     - 높은 throughput을 위해서 Webflux를 고려중이라면 대안이 될 수 있습니다.
-    - 
+  
 ### Virtual Thread 에 대한 오해
 1. Virtual Thread는 기존 (Platform) Thread를 대체하는 것이 목적이 아닙니다.
 2. Virtual Thread는 기다림에 대한 개선, 그리고 플랫폼 디자인과의 조화
