@@ -132,4 +132,18 @@ spring:
 
    => 상호 보완 되는 개념인거지 엄청난 기능 그런게 아님
 
+### Virtual Thread 의 제약
+1. Thread Pool 에 적합하지 않습니다. Task 별로 Virtual Thread를 할당하세요.
+2. Thread Local 사용시 메모리 사용이 늘어날 수 있습니다.
+3. synchronized 사용시 주의가 필요합니다. (carrier thread가 blocking 될 가능성 있습니다.)
+- ReentrantLock 을 사용하세요.
+4. 제한된 리소스의 경우 semaphore 를 사용하세요.
+
 ## 마치며
+
+### 요약 
+- Virtual Thread 가 더 좋은 이유는 0기다림에 대한 것
+- Virtual Thread 는 Platform Thread 를 대체하려는 것이 아님, 둘다 사용가능
+- Virtual Thread 가 추구하는 것은 '처리량을 증가시키면서도 기존 디자인과 조화를 이루는 것 처리량 증가는 "리액티브 프로그래밍"과 같지만 보다 더 가독성이 좋고, 개발자 친화적인 방법으로 이를 달성
+- Spring Boot 3 에서 기존 코드 스타일 그대로 사용하면서 혜택을 누릴 수 있을 것
+- Virtual Thread 가 동시성을 완전하게 개선했다고 보기는 어려움(제약이 있다)
