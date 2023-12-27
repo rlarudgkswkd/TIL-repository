@@ -18,6 +18,25 @@
 - JDK 21 에 추가된 경량 스레드 OS 스레드를 그대로 사용하지 않고 JVM 내부 스케쥴링을 통해서 수십만~수백만개의 스레드를 동시에 사용할 수 있게 한다.
 
 ### 전통적이 Java의 Thread
+- Java의 Thread는 OS Thread를 Wrapping 한 것(=Platform Thread)
+- Java 애플리케이션에서 Thread를 사용하면 실제로는 OS Thread를 사용한 것
+- OS Thread는 생성 갯수가 제한적이고 생성, 유지하는 비용이 비싸다.
+- 이 때문에 애플리케이션에서는 플랫폼 스레드를 효율적으로 사용하기 위해 Thread Pool을 사용했다.
+
+### Throughput
+- 기본적인 Web Request 처리 방식은 THREAD per request 처리 방식
+- 처리량을 높이려면 스레드 증가, BUT 무한정 늘릴 수 없다.
+
+### Blocking I/O
+- Thread에서 I/O 작업을 처리할 때 Blocking이 일어남.
+- 작업을 처리하는 시간보다 대기하는 시간이 길다.
+
+### Reactive Programming
+- WebFlux 스레드를 대기하지 않고 다른 작업 처리 가능
+- 코드를 작성하고 이해하는 비용이 높다.
+- Reactive 하게 동작하는 라이브러리 지원을 필요로 한다.
+  ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/45f092a9-775e-4cc7-b8d2-33af19e51a93)
+
 
 ## 해결하고자 하는 문제
 ## Virtual Thread 구조
