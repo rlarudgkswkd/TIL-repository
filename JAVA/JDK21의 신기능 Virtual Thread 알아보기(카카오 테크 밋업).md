@@ -53,6 +53,8 @@
 ### Reactive Programming 과 비교
 ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/92614ad9-e327-46e6-a5be-cbe2b1299769)
 
+## Virtual Thread 구조
+
 ### Platform Thread
 - OS Thread와 1:1 Mapping
 ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/d15006db-e51d-4876-8739-f813382e625e)
@@ -66,8 +68,6 @@
 
 ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/8a1c6b43-d1b3-4a32-a825-dea87aa0c16f)
 
-
-## Virtual Thread 구조
 ## 사용법
 ## 성능 테스트
 ## 생각해볼 점
