@@ -94,7 +94,13 @@ spring:
    - synchronized 사용 시 Virtual Thread에 연결된 Carrier Thread가 Blocking 될 수 있으니 주의(이런 경우를 pinning 이라고 함)
      ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/2fb843d3-8717-478d-a4bd-2d091f719229)
 
-
 ## 성능 테스트
+
+### 성능 테스트 1
+- ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/9f1be1b3-079d-4a76-9e51-9d4b525fd1f7)
+- SPEC : 4 Core 8G Memory / Ubuntu 20 / Java 21 / Gradle 8.4 / Max Heap 2G
+- ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/a5b31957-300f-455d-a323-a3a0b74e5c01)
+
+
 ## 생각해볼 점
 ## 마치며
