@@ -81,6 +81,15 @@ spring:
          enabled: true
 
 ```
+### Spring Boot(MVC) 적용 법(3.X) -> 직접 Bean 등록
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/eb02de8b-e3fb-4a68-bc90-9ba6b24c7c6e)
+
+### 유의 사항 
+1. Platform Thread => Virtual Thread (X) / Task => Virtual Thread
+   - 리소스라고 생각하지 말고 TASK 별로 Virtual Thread 할당
+2. Thread Local 사용 시 주의
+   - Platform Thread Pool 을 사용할 때 공유를 위해 ThreadLocal 을 사용하던 관습
+   - Virtual Thread는 Heap을 사용하기 때문에 이를 남발하면 메모리 사용이 늘어남
 
 ## 성능 테스트
 ## 생각해볼 점
