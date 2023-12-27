@@ -45,6 +45,16 @@
 - REACTIVE 할때 작업이 여러 스레드를 거쳐 처리되는데, 컨텍스트 확인이 어려워 디버깅이 어려움
 
 ## 해결하고자 하는 문제
+1. 애플리케이션의 높은 처리량(THROUGhput) 확보
+   - Blocking 발생 시 내부 스케쥴리을 통해 다른 작업을 처리
+2. 자바 플랫폼의 디자인과 조화를 이루는 코드 생성
+   - 기존 스레드 구조 그대로 사용
+  
+### Reactive Programming 과 비교
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/92614ad9-e327-46e6-a5be-cbe2b1299769)
+
+
+
 ## Virtual Thread 구조
 ## 사용법
 ## 성능 테스트
