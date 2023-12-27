@@ -35,8 +35,14 @@
 - WebFlux 스레드를 대기하지 않고 다른 작업 처리 가능
 - 코드를 작성하고 이해하는 비용이 높다.
 - Reactive 하게 동작하는 라이브러리 지원을 필요로 한다.
-  ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/45f092a9-775e-4cc7-b8d2-33af19e51a93)
+![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/45f092a9-775e-4cc7-b8d2-33af19e51a93)
 
+-> 그럼 왜이렇게 차이가 나느냐, Java Design 생각
+
+### Java Design 
+- 자바의 디자인은 '스레드 중심'으로 구성되어 있다.
+- EXCEPTION STACk Trace, Debugger, Profilling 모두 스레드 기반
+- REACTIVE 할때 작업이 여러 스레드를 거쳐 처리되는데, 컨텍스트 확인이 어려워 디버깅이 어려움
 
 ## 해결하고자 하는 문제
 ## Virtual Thread 구조
