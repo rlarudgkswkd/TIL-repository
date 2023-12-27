@@ -116,6 +116,20 @@ spring:
 - Platform Thread 가 비쌈
 - Throttle 역할도 수행
 
-
 ## 생각해볼 점
+
+### 적합한 사용처
+1. I/O Blocking이 발생하는 경우 Virtual Thread 가 적합합니다.
+2. CPU Intensive 작업에는 적합하지 않습니다.
+3. Spring MVC 기반 Web API 제공시 편리하게 사용할 수 있습니다.
+    - 높은 throughput을 위해서 Webflux를 고려중이라면 대안이 될 수 있습니다.
+    - 
+### Virtual Thread 에 대한 오해
+1. Virtual Thread는 기존 (Platform) Thread를 대체하는 것이 목적이 아닙니다.
+2. Virtual Thread는 기다림에 대한 개선, 그리고 플랫폼 디자인과의 조화
+3. 도입한다고 무조건 처리량이 높아지지 않습니다.
+4. Virtual Thread는 그 자체로 Java의 동시성을 완전히 개선했다고 보기는 어렵습니다.
+
+   => 상호 보완 되는 개념인거지 엄청난 기능 그런게 아님
+
 ## 마치며
