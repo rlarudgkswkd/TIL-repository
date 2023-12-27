@@ -96,10 +96,25 @@ spring:
 
 ## 성능 테스트
 
-### 성능 테스트 1
+### 성능 테스트 1 단순 Wait
 - ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/9f1be1b3-079d-4a76-9e51-9d4b525fd1f7)
 - SPEC : 4 Core 8G Memory / Ubuntu 20 / Java 21 / Gradle 8.4 / Max Heap 2G
 - ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/a5b31957-300f-455d-a323-a3a0b74e5c01)
+
+### 성능 테스트 2 DB직접 접근
+- ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/69bc56b6-6f91-4b07-aacc-b703399e9536)
+- SPEC : 4 Core 8G Memory / Ubuntu 20 / Java 21 / Gradle 8.4 / Max Heap 2G
+- ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/e192ebfd-da55-4f02-ab5d-99637d47cd2b)
+- ![image](https://github.com/rlarudgkswkd/TIL-repository/assets/48428850/8e75e6a9-0a9d-4b3c-9022-bb3d21fa93b4)
+
+### 성능 테스트 해석
+- T/O Blocking 이 발생하는 경우 Virtual Thread 더 좋은 처리량을 보여준다.
+- Tomcat servlet O| virtual thread = (no pool, virtual thread per task) throughput 를 뒤로 넘길 때 DB Connection 을 가져오려다 Timeout.
+  a. 이런경우를 Overwhelming 이라고 부름
+  
+- 기존 Thread pool 을 사용하던 이유
+- Platform Thread 가 비쌈
+- Throttle 역할도 수행
 
 
 ## 생각해볼 점
