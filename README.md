@@ -30,6 +30,7 @@ TIL(Today I learned) 저장소
 * [객체 리스트 내림차순 정렬](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/%EA%B0%9D%EC%B2%B4%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%EC%A0%95%EB%A0%AC.md)
 * [Singleton패턴](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Singleton%ED%8C%A8%ED%84%B4.md)
 * [Reactive Programming](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Reactive%20Programming.md)
+* [Java 21 Virtual Thread(카카오 밋업)](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Reactive%20Programming.md/Java/JDK21의 신기능 Virtual Thread 알아보기(카카오 테크 밋업).md)
 <br>
 
 ### DB
