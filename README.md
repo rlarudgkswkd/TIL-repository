@@ -33,6 +33,7 @@ TIL(Today I learned) 저장소
 * [Singleton패턴](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Singleton%ED%8C%A8%ED%84%B4.md)
 * [Reactive Programming](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/Reactive%20Programming.md)
 * [Java 21 Virtual Thread(카카오 밋업)](https://github.com/rlarudgkswkd/TIL-repository/blob/master/JAVA/JDK21%EC%9D%98%20%EC%8B%A0%EA%B8%B0%EB%8A%A5%20Virtual%20Thread%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0(%EC%B9%B4%EC%B9%B4%EC%98%A4%20%ED%85%8C%ED%81%AC%20%EB%B0%8B%EC%97%85).md)
+* [Spring REST DOCS & Swagger UI](https://helloworld.kurly.com/blog/spring-rest-docs-guide/)
 <br>
 
 ### DB
